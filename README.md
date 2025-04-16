@@ -1,5 +1,8 @@
 # TEC2 - Projetos Java II
 
+![Java](https://img.shields.io/badge/Java-11-blue?logo=java&logoColor=white) 
+![Maven](https://img.shields.io/badge/Maven-3.8.1-c71a36?logo=apache-maven&logoColor=white)
+
 Este repositório contém os projetos e atividades desenvolvidos na disciplina de **Java II** durante o curso de **Desenvolvimento de Software Multiplataforma** na **FATEC Praia Grande**, sob orientação do professor **Alessandro Ferreira Paz Lima**.
 
 ---
@@ -21,12 +24,12 @@ Cada pasta representa uma aula ou prática diferente, contendo seu respectivo c�
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- **Java 11**
-- **Maven** (em projetos que utilizam bibliotecas externas como Gson)
-- **Gson** (para manipulação de JSON)
-- **Java Streams e Expressões Lambda**
+- **Java 11**: Ambiente de desenvolvimento.
+- **Maven**: Gerenciamento de dependências e build.
+- **Gson**: Manipulação de JSON.
+- **Java Streams e Expressões Lambda**: Manipulação funcional de dados.
 
 ---
 
