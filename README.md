@@ -21,6 +21,7 @@ Cada pasta representa uma aula ou prática diferente, contendo seu respectivo c�
 | [pratica4](pratica4) | Consumir API do Gemini com Java e Spring                                |
 | [pratica5](pratica5) | Manipulação de dados de funcionários e produtos utilizando Streams e Lambdas |
 | [pratica6](pratica6) | Processamento de Dados da API JSONPlaceholder com Streams e Lambdas      |
+| [pratica7](pratica7) | Consumo de API externa com persistência condicional (Spring JPA + Hibernate) |
 
 ---
 
@@ -29,6 +30,8 @@ Cada pasta representa uma aula ou prática diferente, contendo seu respectivo c�
 - **Java 11**: Ambiente de desenvolvimento.
 - **Maven**: Gerenciamento de dependências e build.
 - **Gson**: Manipulação de JSON.
+- **Spring Boot**: Framework para construção de aplicações web e APIs.
+- **Hibernate/JPA**: Persistência de dados com mapeamento objeto-relacional.
 - **Java Streams e Expressões Lambda**: Manipulação funcional de dados.
 
 ---
@@ -59,6 +62,9 @@ O projeto é dividido em duas partes: a primeira manipula dados de funcionários
 
 ### [pratica6](pratica6): Processamento de Dados da API JSONPlaceholder
 Este projeto consome dados do endpoint **/posts** da API JSONPlaceholder e aplica uma série de operações utilizando **Streams** e **Expressões Lambda**, como filtragem, ordenação, agrupamento e mapeamento dos dados.
+
+### [pratica7](pratica7): Consumo de API externa com persistência condicional (Spring JPA + Hibernate)
+Este projeto consome uma API externa de receitas e permite ao usuário buscar receitas pelo terminal. O sistema exibe os dados recebidos e oferece a opção de salvar a receita em um banco de dados PostgreSQL. As receitas salvas podem ser listadas posteriormente. O projeto utiliza Spring Boot, JPA, Hibernate e anotações como `@Entity` e `@ElementCollection` para persistência dos dados.
 
 ---
 
